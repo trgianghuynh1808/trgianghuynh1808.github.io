@@ -20,9 +20,9 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: Build site 🏗
-        with:
-          working-directory: dev
-        run: npm run build
+        run: |
+          cd ./dev
+          npm run build
 
       # https://github.com/marketplace/actions/github-pages-action
       - name: Deploy 🚀
