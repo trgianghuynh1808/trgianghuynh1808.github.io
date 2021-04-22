@@ -4,7 +4,7 @@ category: docs
 tags:
   - en
 date: 2019-02-27
-title: Theme Guide
+title: Test Update Post & Auto Deploy
 vssue-id: 10
 ---
 
