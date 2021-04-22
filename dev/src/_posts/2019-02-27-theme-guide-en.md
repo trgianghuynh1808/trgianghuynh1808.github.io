@@ -4,7 +4,7 @@ category: docs
 tags:
   - en
 date: 2019-02-27
-title: Theme Guide
+title: Theme Guide test
 vssue-id: 10
 ---
 
@@ -82,46 +82,46 @@ Config Vuepress and this theme in `src/.vuepress/config.js` :
 
 module.exports = {
   // Title of your website
-  title: 'My Blog',
+  title: "My Blog",
 
   // Description of your website
-  description: 'This is my blog',
+  description: "This is my blog",
 
   // Language of your website
   locales: {
-    '/': {
-      lang: 'en-US',
+    "/": {
+      lang: "en-US",
     },
   },
 
   // Theme to use
-  theme: 'meteorlxy',
+  theme: "meteorlxy",
 
   // Theme config
   themeConfig: {
     // Language of this theme. See the [Theme Language] section below.
-    lang: 'en-US',
+    lang: "en-US",
 
     // Personal infomation (delete the fields if you don't have / don't want to display)
     personalInfo: {
       // Nickname
-      nickname: 'meteorlxy',
+      nickname: "meteorlxy",
 
       // Introduction of yourself (HTML supported)
-      description: 'Happy Coding<br/>Happy Life',
+      description: "Happy Coding<br/>Happy Life",
 
       // Email
-      email: 'meteor.lxy@foxmail.com',
+      email: "meteor.lxy@foxmail.com",
 
       // Your location
-      location: 'Xi\'an City, China',
+      location: "Xi'an City, China",
 
       // Your organization
-      organization: 'Xi\'an Jiao Tong University',
+      organization: "Xi'an Jiao Tong University",
 
       // Your avatar image
       // Set to external link
-      avatar: 'https://www.meteorlxy.cn/assets/img/avatar.jpg',
+      avatar: "https://www.meteorlxy.cn/assets/img/avatar.jpg",
       // Or put into `.vuepress/public` directory. E.g. `.vuepress/public/img/avatar.jpg`
       // avatar: '/img/avatar.jpg',
 
@@ -129,92 +129,92 @@ module.exports = {
       sns: {
         // Github account and link
         github: {
-          account: 'meteorlxy',
-          link: 'https://github.com/meteorlxy',
+          account: "meteorlxy",
+          link: "https://github.com/meteorlxy",
         },
 
         // Facebook account and link
         facebook: {
-          account: 'meteorlxy.cn',
-          link: 'https://www.facebook.com/meteorlxy.cn',
+          account: "meteorlxy.cn",
+          link: "https://www.facebook.com/meteorlxy.cn",
         },
 
         // LinkedIn account and link
         linkedin: {
-          account: 'meteorlxy',
-          link: 'http://www.linkedin.com/in/meteorlxy',
+          account: "meteorlxy",
+          link: "http://www.linkedin.com/in/meteorlxy",
         },
 
         // Twitter account and link
         twitter: {
-          account: 'meteorlxy_cn',
-          link: 'https://twitter.com/meteorlxy_cn',
+          account: "meteorlxy_cn",
+          link: "https://twitter.com/meteorlxy_cn",
         },
 
         // Sina Weibo account and link
         weibo: {
-          account: '@焦炭君_Meteor',
-          link: 'https://weibo.com/u/2039655434',
+          account: "@焦炭君_Meteor",
+          link: "https://weibo.com/u/2039655434",
         },
 
         // Zhihu account and link
         zhihu: {
-          account: 'meteorlxy.cn',
-          link: 'https://www.zhihu.com/people/meteorlxy.cn',
+          account: "meteorlxy.cn",
+          link: "https://www.zhihu.com/people/meteorlxy.cn",
         },
 
         // Douban account and link
         douban: {
-          account: '159342708',
-          link: 'https://www.douban.com/people/159342708',
+          account: "159342708",
+          link: "https://www.douban.com/people/159342708",
         },
 
         // Reddit account and link
         reddit: {
-          account: 'meteorlxy',
-          link: 'https://www.reddit.com/user/meteorlxy',
+          account: "meteorlxy",
+          link: "https://www.reddit.com/user/meteorlxy",
         },
 
         // Medium account and link
         medium: {
-          account: 'meteorlxy.cn',
-          link: 'https://medium.com/@meteorlxy.cn',
+          account: "meteorlxy.cn",
+          link: "https://medium.com/@meteorlxy.cn",
         },
 
         // Instagram account and link
         instagram: {
-          account: 'meteorlxy.cn',
-          link: 'https://www.instagram.com/meteorlxy.cn',
+          account: "meteorlxy.cn",
+          link: "https://www.instagram.com/meteorlxy.cn",
         },
 
         // GitLab account and link
         gitlab: {
-          account: 'meteorlxy',
-          link: 'https://gitlab.com/meteorlxy',
+          account: "meteorlxy",
+          link: "https://gitlab.com/meteorlxy",
         },
 
         // Bitbucket account and link
         bitbucket: {
-          account: 'meteorlxy',
-          link: 'https://bitbucket.org/meteorlxy',
+          account: "meteorlxy",
+          link: "https://bitbucket.org/meteorlxy",
         },
 
         // Docker Hub account and link
         docker: {
-          account: 'meteorlxy',
-          link: 'https://hub.docker.com/u/meteorlxy',
+          account: "meteorlxy",
+          link: "https://hub.docker.com/u/meteorlxy",
         },
 
         // CSDN account and link
         csdn: {
-          account: '',
-          link: 'https://www.csdn.net/',
+          account: "",
+          link: "https://www.csdn.net/",
         },
 
         // Juejin account and link
         juejin: {
-          account: 'meteorlxy',
-          link: 'https://juejin.im/user/5c6fa9dde51d453fcb7baf09',
+          account: "meteorlxy",
+          link: "https://juejin.im/user/5c6fa9dde51d453fcb7baf09",
         },
       },
     },
@@ -224,7 +224,7 @@ module.exports = {
       // The background of the header. You can choose to use an image, or to use random pattern (geopattern)
       background: {
         // URL of the background image. If you set the URL, the random pattern will not be generated, and the `useGeo` will be ignored.
-        url: '/assets/img/bg.jpg',
+        url: "/assets/img/bg.jpg",
 
         // Use random pattern. If you set it to `false`, and you don't set the image URL, the background will be blank.
         useGeo: true,
@@ -243,7 +243,8 @@ module.exports = {
       poweredByTheme: true,
 
       // Add your custom footer (HTML supported)
-      custom: 'Copyright 2018-present <a href="https://github.com/meteorlxy" target="_blank">meteorlxy</a> | MIT License',
+      custom:
+        'Copyright 2018-present <a href="https://github.com/meteorlxy" target="_blank">meteorlxy</a> | MIT License',
     },
 
     // Info Card Config (Optional)
@@ -251,7 +252,7 @@ module.exports = {
       // The background of the info card's header. You can choose to use an image, or to use random pattern (geopattern)
       headerBackground: {
         // URL of the background image. If you set the URL, the random pattern will not be generated, and the `useGeo` will be ignored.
-        url: '/assets/img/bg.jpg',
+        url: "/assets/img/bg.jpg",
 
         // Use random pattern. If you set it to `false`, and you don't set the image URL, the background will be blank.
         useGeo: true,
@@ -263,8 +264,8 @@ module.exports = {
 
     // The content of your navbar links
     nav: [
-      { text: 'Home', link: '/', exact: true },
-      { text: 'Posts', link: '/posts/', exact: false },
+      { text: "Home", link: "/", exact: true },
+      { text: "Posts", link: "/posts/", exact: false },
     ],
 
     // Enable smooth scrolling or not
@@ -277,10 +278,10 @@ module.exports = {
 
     // Comments config. See the [Posts Comments] section below.
     comments: {
-      owner: 'meteorlxy',
-      repo: 'vuepress-theme-meteorlxy',
-      clientId: 'MY_CLIENT_ID',
-      clientSecret: 'MY_CLIENT_SECRET',
+      owner: "meteorlxy",
+      repo: "vuepress-theme-meteorlxy",
+      clientId: "MY_CLIENT_ID",
+      clientSecret: "MY_CLIENT_SECRET",
     },
 
     // Pagination config (Optional)
@@ -296,8 +297,9 @@ module.exports = {
       posts: true,
     },
   },
-}
+};
 ```
+
 </details>
 
 ### Write your posts
@@ -308,12 +310,15 @@ Create your first post:
 <!-- _posts/2019-01-21-hello-world.md -->
 
 ---
+
 category: hello
 tags:
-  - world
-date: 2019-01-21
-title: Hello, world!
-vssue-title: Hello, world!
+
+- world
+  date: 2019-01-21
+  title: Hello, world!
+  vssue-title: Hello, world!
+
 ---
 
 This is my first post.
@@ -349,11 +354,11 @@ To help users with different languages to use this theme, we provide some langua
 
 module.exports = {
   themeConfig: {
-    lang: 'en-US',
+    lang: "en-US",
     // OR
-    lang: require('vuepress-theme-meteorlxy/lib/langs/en-US'),
+    lang: require("vuepress-theme-meteorlxy/lib/langs/en-US"),
   },
-}
+};
 ```
 
 ::: tip
@@ -372,20 +377,20 @@ You can also translate the fields into your own language manually.
 module.exports = {
   themeConfig: {
     lang: {
-      home: 'Home',
-      posts: 'Posts',
-      category: 'Category',
-      categories: 'Categories',
-      allCategories: 'All',
-      tag: 'Tag',
-      tags: 'Tags',
-      createdAt: 'Created',
-      updatedAt: 'Updated',
-      prevPost: 'Previous Post',
-      nextPost: 'Next Post',
+      home: "Home",
+      posts: "Posts",
+      category: "Category",
+      categories: "Categories",
+      allCategories: "All",
+      tag: "Tag",
+      tags: "Tags",
+      createdAt: "Created",
+      updatedAt: "Updated",
+      prevPost: "Previous Post",
+      nextPost: "Next Post",
     },
   },
-}
+};
 ```
 
 ### Override the language packs
@@ -397,12 +402,12 @@ If you don't like some translation of the language packs, or you want to use som
 
 module.exports = {
   themeConfig: {
-    lang: Object.assign(require('vuepress-theme-meteorlxy/lib/langs/en-US'), {
-      home: 'Welcome to my Homepage !',
-      posts: 'Here is my articles',
+    lang: Object.assign(require("vuepress-theme-meteorlxy/lib/langs/en-US"), {
+      home: "Welcome to my Homepage !",
+      posts: "Here is my articles",
     }),
   },
-}
+};
 ```
 
 ## Posts Comments
@@ -421,15 +426,15 @@ module.exports = {
   themeConfig: {
     // Comments Config
     comments: {
-      platform: 'github', // Optional, default is 'github'. You can also choose 'gitlab', 'bitbucket'. Check Vssue docs for details.
-      owner: 'meteorlxy',
-      repo: 'vuepress-theme-meteorlxy',
-      clientId: 'MY_CLIENT_ID',
-      clientSecret: 'MY_CLIENT_SECRET',
-      autoCreateIssue: process.env.NODE_ENV !== 'development', // Optional, this will not create issue autoly in development mode
+      platform: "github", // Optional, default is 'github'. You can also choose 'gitlab', 'bitbucket'. Check Vssue docs for details.
+      owner: "meteorlxy",
+      repo: "vuepress-theme-meteorlxy",
+      clientId: "MY_CLIENT_ID",
+      clientSecret: "MY_CLIENT_SECRET",
+      autoCreateIssue: process.env.NODE_ENV !== "development", // Optional, this will not create issue autoly in development mode
     },
   },
-}
+};
 ```
 
 Comments of your posts will be stored in the issue system of you GitHub repository. Vssue will auto create an issue for your post with the `title` of your post.
@@ -442,7 +447,7 @@ Why we choose to use the issue system for your comments?
 - GitHub or other platforms is widely used by programmers, so they don't need to register a new account to leave a comment on your site.
 - You can get full control of your blog, including the comments.
 - The issue system of your blog repo is likely to be idle. Let's make use of it!
-:::
+  :::
 
 ### Config for a single post
 
@@ -508,7 +513,7 @@ module.exports = {
     // Comments Config
     comments: false,
   },
-}
+};
 ```
 
 If you set `comments: false`, Vuepress will not introduce Vssue at all.
@@ -535,7 +540,6 @@ This is a top post.
 ::: tip
 You can also set `top: 1`, `top: 2` to control the order.
 :::
-
 
 ### Draft post
 
