@@ -4,7 +4,6 @@ module.exports = {
 
   // Description of your website
   description: "This is my blog",
-  base: "/erihuynh_blog/",
 
   // Language of your website
   locales: {
