@@ -14,13 +14,14 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Go to root dir
+        run: cd ./dev
+
       - name: NPM install 📦
         uses: bahmutov/npm-install@v1
 
       - name: Build site 🏗
-        run: |
-          cd ./dev
-          npm run build
+        run: npm run build
 
       # https://github.com/marketplace/actions/github-pages-action
       - name: Deploy 🚀
