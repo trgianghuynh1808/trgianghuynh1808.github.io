@@ -200,12 +200,13 @@ module.exports = {
     },
 
     // Comments config. See the [Posts Comments] section below.
-    comments: {
-      owner: "meteorlxy",
-      repo: "vuepress-theme-meteorlxy",
-      clientId: "MY_CLIENT_ID",
-      clientSecret: "MY_CLIENT_SECRET",
-    },
+    // comments: {
+    //   owner: "meteorlxy",
+    //   repo: "vuepress-theme-meteorlxy",
+    //   clientId: "MY_CLIENT_ID",
+    //   clientSecret: "MY_CLIENT_SECRET",
+    // },
+    comments: false,
 
     // Pagination config (Optional)
     pagination: {
