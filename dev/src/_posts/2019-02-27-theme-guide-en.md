@@ -4,7 +4,7 @@ category: docs
 tags:
   - en
 date: 2019-02-27
-title: Test Update Post
+title: Theme Guide
 vssue-id: 10
 ---
 
