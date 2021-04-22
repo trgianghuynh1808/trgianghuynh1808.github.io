@@ -1,4 +1,4 @@
-name: ci
+name: vuepress-deploy
 # only deploy site from master branch
 on:
   push:
@@ -18,6 +18,8 @@ jobs:
         run: cd ./dev
 
       - name: NPM install 📦
+        with:
+          working-directory: dev
         uses: bahmutov/npm-install@v1
 
       - name: Build site 🏗
