@@ -7,9 +7,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./dev
     steps:
       # https://github.com/actions/checkout
       - name: Checkout 🛎️
@@ -21,7 +18,9 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: Build site 🏗
-        run: npm run build
+        run: |
+          cd ./dev
+          npm run build
 
       # https://github.com/marketplace/actions/github-pages-action
       - name: Deploy 🚀
