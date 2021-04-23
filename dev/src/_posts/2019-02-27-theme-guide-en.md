@@ -1,6 +1,6 @@
 ---
 top: 1
-category: docs
+category: example
 tags:
   - en
 date: 2019-02-27
