@@ -145,10 +145,10 @@ module.exports = {
       background: {
         // URL of the background image. If you set the URL, the random pattern will not be generated, and the `useGeo` will be ignored.
         url: [
-          "/assets/img/bg-7.jpg",
-          "/assets/img/bg-11.jpg",
-          "/assets/img/bg-13.jpg",
-          "/assets/img/bg-14.jpg",
+          "https://res.cloudinary.com/erihuynh/image/upload/v1623083747/blog_setups/bg-11_iqxivy.jpg",
+          "https://res.cloudinary.com/erihuynh/image/upload/v1623083748/blog_setups/bg-13_mkpkiq.jpg",
+          "https://res.cloudinary.com/erihuynh/image/upload/v1623083753/blog_setups/bg-7_stijov.jpg",
+          "https://res.cloudinary.com/erihuynh/image/upload/v1623083753/blog_setups/bg-14_vr9fhp.jpg",
         ],
 
         // Use random pattern. If you set it to `false`, and you don't set the image URL, the background will be blank.
@@ -176,7 +176,8 @@ module.exports = {
       // The background of the info card's header. You can choose to use an image, or to use random pattern (geopattern)
       headerBackground: {
         // URL of the background image. If you set the URL, the random pattern will not be generated, and the `useGeo` will be ignored.
-        url: "/assets/img/bg-5.jpg",
+        url:
+          "https://res.cloudinary.com/erihuynh/image/upload/v1623083748/blog_setups/bg-13_mkpkiq.jpg",
 
         // Use random pattern. If you set it to `false`, and you don't set the image URL, the background will be blank.
         useGeo: true,
