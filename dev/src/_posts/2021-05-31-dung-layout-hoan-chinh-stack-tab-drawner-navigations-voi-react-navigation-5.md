@@ -3,9 +3,9 @@ top: 2
 category: technology
 tags:
   - react-native
-date: 2021-05-26
+date: 2021-05-31
 title: Dựng layout hoàn chỉnh Stack, Tab, Drawner Navigations với React Navigation 5
-vssue-id: 10
+vssue-id: 12
 ---
 
 Hi Eri Huỳnh chào mọi người, hôm nay mình sẽ giới thiệu mọi người cách để thực hiện một layout hoàn chỉnh cho một ứng dụng, bao gồm Stack, Tab, thanh Drawner với `React Navigation 5`. Mình bắt đầu nhé ^.^

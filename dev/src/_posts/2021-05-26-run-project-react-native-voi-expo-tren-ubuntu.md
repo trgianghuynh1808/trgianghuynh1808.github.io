@@ -7,7 +7,7 @@ tags:
   - ubuntu
 date: 2021-05-26
 title: Hướng dẫn run project React Native trên Ubuntu với Expo, Android Studio
-vssue-id: 10
+vssue-id: 11
 ---
 
 Hi, Eri Huỳnh xin chào mọi người! Thời gian gần đây, mình có bắt đầu tìm hiểu thêm về React-native. Và khó khăn đầu tiên mình gặp phải
