@@ -3,7 +3,7 @@ module.exports = {
   title: "Eri Huỳnh",
 
   // Description of your website
-  description: "This is my blog",
+  description: "Đây là nơi chia sẻ những kiến thức về lập trình. Welcome",
   base: "/",
 
   // Language of your website
@@ -36,11 +36,12 @@ module.exports = {
       location: "HoChiMinh City, VietNam",
 
       // Your organization
-      organization: "9RS Team",
+      organization: "Freelance",
 
       // Your avatar image
       // Set to external link
-      avatar: "https://www.meteorlxy.cn/assets/img/avatar.jpg",
+      avatar:
+        "https://res.cloudinary.com/erihuynh/image/upload/v1623081203/blog_setups/171294134_120673530048669_7076175492463277938_n_gcojki.jpg",
       // Or put into `.vuepress/public` directory. E.g. `.vuepress/public/img/avatar.jpg`
       // avatar: '/img/avatar.jpg',
 
@@ -101,10 +102,10 @@ module.exports = {
         // },
 
         // Instagram account and link
-        // instagram: {
-        //   account: "eri.huynh",
-        //   link: "https://www.instagram.com/eri.huynh",
-        // },
+        instagram: {
+          account: "eri.huynh",
+          link: "https://www.instagram.com/eri.huynh",
+        },
 
         // GitLab account and link
         // gitlab: {
